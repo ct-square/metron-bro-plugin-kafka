@@ -19,8 +19,10 @@
 #define BRO_PLUGIN_BRO_KAFKA_TAGGEDJSON_H
 
 #include <string>
+#include <Desc.h>
 #include <threading/Formatter.h>
 #include <threading/formatters/JSON.h>
+
 
 using threading::formatter::JSON;
 using threading::MsgThread;

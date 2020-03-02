@@ -20,10 +20,12 @@
 
 #include <librdkafka/rdkafkacpp.h>
 #include <string>
+#include <Desc.h>
 #include <Type.h>
 #include <logging/WriterBackend.h>
 #include <threading/formatters/JSON.h>
 #include <threading/Formatter.h>
+
 
 #include "kafka.bif.h"
 #include "TaggedJSON.h"
